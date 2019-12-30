@@ -1,0 +1,21 @@
+open HELLO rw
+write HELLO 30000 20000 "1Woahahhh!"
+size HELLO
+read HELLO 0 20000
+write HELLO 0 50 "2Woawaddwdaawd!"
+size HELLO
+read HELLO 0 50
+write HELLO 0 40000 "3Woaawa1122hahhh!"
+size HELLO
+read HELLO 0 40000
+write HELLO 1000 50000 "4Woahbhgffahhh!"
+size HELLO
+read HELLO 0 51000
+write HELLO 0 4 "5Woaha32434555hhh!"
+size HELLO
+read HELLO 0 4
+write HELLO 3 100 "6Woah8888888ahhh!"
+size HELLO
+read HELLO 0 103
+close HELLO
+exit

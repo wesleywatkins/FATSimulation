@@ -1,0 +1,71 @@
+ls
+mkdir Students
+mkdir Teachers
+cd Students
+creat billy
+creat bob
+creat sally
+ls
+cd ..
+ls
+cd Teachers
+creat john
+creat beth
+creat jen
+ls
+cd ..
+ls
+cd Students
+ls
+size billy
+size bob
+size sally
+open billy rw
+open bob rw
+open sally w
+write billy 0 25 "name: billy"
+write bob 0 15 "name: bob"
+write sally 0 10 "name: sally"
+size billy
+read billy 0 25
+close bob
+size bob
+read bob 0 15
+size sally
+read sally 0 10
+open bob rw
+read bob 0 15
+close sally
+open sally r
+read sally 0 100
+close sally
+close bob
+rm billy
+rm bob
+rm sally
+cd ..
+ls
+rmdir Students
+ls
+cd Teachers
+ls
+rm john
+rm beth
+rm jen
+write john 0 5 "ello"
+cd ..
+ls
+rmdir Teachers
+open HELLO rw
+write HELLO 4 2500 "wwwwwwwww"
+size HELLO
+read HELLO 0 2504
+close HELLO
+rm HELLO
+size LONGFILE
+open LONGFILE
+write LONGFILE 0 0 ""
+size LONGFILE
+close LONGFILE
+rm LONGFILE
+exit
