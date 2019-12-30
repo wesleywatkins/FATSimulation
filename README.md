@@ -1,4 +1,4 @@
-# -Project-3-COP4610
+# FAT File System Simulation
 For this project, you will design and implement a simple, user-space, shell-like utility that is capable of interpreting a FAT32 file system image. The program must understand the basic commands tomanipulate the given file system image, must not corrupt the file system image, and should be robust.You may not reuse kernel file system code and you may not copy code from other file system utilities. 
 
 ## Contents
